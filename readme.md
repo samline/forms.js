@@ -1,4 +1,4 @@
-# fields.js v1.0.0
+# forms.js v1.0.0
 by  **Samuel Olvera (samline)**
 
 ## License
