@@ -203,7 +203,7 @@ const preventMultipleSubmit = (e, $form) => {
 
   setTimeout(() => {
     $form.querySelector('button[type="submit"]').removeAttribute('disabled')
-  }, 8000)
+  }, 2000)
 }
 
 const ifAutoSubmit = ($target) => {
