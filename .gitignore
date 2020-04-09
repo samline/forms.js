@@ -1,19 +1,15 @@
-# Assets development
-/node_modules
+# development
 npm-debug.log
+yarn-error.log
 
-# OS
+# os
 .DS_Store
 .idea/
 .tags
 Thumbs.db
 
-# Packages
-.phpunit.result.cache
-.vagrant/
+# packages
 /.vscode
-/nbproject/
-_ide_helpers.php
-tests/_output/*
-yarn-error.log
+/nbproject
+/node_modules
 package-lock.json

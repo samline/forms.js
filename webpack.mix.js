@@ -6,13 +6,15 @@ mix
 .sourceMaps()
 
 if(mix.inProduction()) {
-  mix.js(
-    'src/forms.js',
-    'js/forms.min.js'
+  mix
+  .js(
+    'src/cdn.js',
+    'dist/js/s-forms.min.js'
   )
 } else {
-  mix.js(
-    'src/forms.js',
-    'js/forms.js'
+  mix
+  .js(
+    'src/cdn.js',
+    'dist/js/s-forms.js'
   )
 }

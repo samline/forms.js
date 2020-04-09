@@ -1,11 +1,12 @@
 {
   "private": false,
-  "name": "shido.forms.js",
-  "version": "1.1.0",
-  "description": "Utilities, formats and field validation rules",
+  "name": "s-forms",
+  "main": "index.js",
+  "version": "2.0.0",
+  "description": "Utilities for forms",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/samline/forms.js.git"
+    "url": "git+https://github.com/samline/s.forms.git"
   },
   "keywords": [
     "js",
@@ -18,25 +19,21 @@
     "forms",
     "inputs"
   ],
-  "author": "Samuel Olvera (samline)",
+  "author": "Samuel Olvera",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/samline/forms.js/issues"
+    "url": "https://github.com/samline/s.forms/issues"
   },
-  "homepage": "https://github.com/samline/forms.js#readme",
+  "homepage": "https://github.com/samline/s.forms#readme",
   "scripts": {
     "local": "cross-env NODE_ENV=development node_modules/webpack/bin/webpack.js --progress --hide-modules --env=local --config=node_modules/laravel-mix/setup/webpack.config.js",
     "staging": "cross-env NODE_ENV=staging node_modules/webpack/bin/webpack.js --progress --hide-modules --env=staging --config=node_modules/laravel-mix/setup/webpack.config.js",
     "production": "cross-env NODE_ENV=production node_modules/webpack/bin/webpack.js --progress --hide-modules --env=production --config=node_modules/laravel-mix/setup/webpack.config.js",
     "dev": "yarn run local",
     "prod": "yarn run production",
-    "watch": "yarn run local -- --watch"
+    "watch": "yarn run local --watch"
   },
-  "devDependencies": {
-    "cross-env": "^6.0.3",
-    "laravel-mix": "^5.0.0",
-    "vue-template-compiler": "^2.6.10"
-  },
+
   "engines": {
     "node": ">=10",
     "npm": ">=6",
@@ -46,7 +43,11 @@
     "ie 9",
     "last 2 versions"
   ],
-  "main": "webpack.mix.js",
+
+  "devDependencies": {
+    "cross-env": "^6.0.3",
+    "laravel-mix": "^5.0.0",
+    "vue-template-compiler": "^2.6.10"
+  },
   "dependencies": {}
 }
-

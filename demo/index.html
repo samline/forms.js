@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>s.forms</title>
+    <meta charset="utf-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1,user-scalable=no">
+    <link href="https://unpkg.com/shido@^2.2.0/dist/css/shido.min.css" rel="stylesheet">
+    <link href="demo/css/app.css" rel="stylesheet">
+    <script src="dist/js/s-forms.js"></script>
+  </head>
+  <body class="bg-grey-50">
+    <div class="main-container">
+      <section id="forms" class="x:pad-bt-40 s:pad-bt-60 m:pad-bt-80">
+        <div class="scontainer">
+          <div class="line">
+            <div class="x:scol-12 x:center x:mrg-bottom-40">
+              <h1 class="fw-semi-bold x:fs-30">s.forms</h1>
+            </div>
+          </div>
+          <form>
+            <div class="line" style="max-width: 550px;">
+              <div class="x:scol-6">
+                <div class="input-field">
+                  <label for="Filled">Filled</label>
+                  <input type="text" id="Filled" name="Filled" value="Lorem ipsum">
+                </div>
+              </div>
+              <div class="x:scol-6">
+                <div class="input-field">
+                  <label for="Write">Write something (onChange)</label>
+                  <input type="text" id="Write" name="Write">
+                </div>
+              </div>
+              <div class="x:scol-6">
+                <div class="input-field">
+                  <label for="Focus">Focus and blur</label>
+                  <input type="text" id="Focus" name="Focus">
+                </div>
+              </div>
+              <div class="x:scol-6">
+                <div class="input-field select">
+                  <label for="Select">Select</label>
+                  <select name="Select" id="Select">
+                    <option disabled selected style="display:none;"></option>
+                    <option value="option 1">Option 1</option>
+                    <option value="option 2">Option 2</option>
+                    <option value="option 3">Option 3</option>
+                    <option value="option 4">Option 4</option>
+                  </select>
+                </div>
+              </div>
+            </div>
+          </form>
+        </div>
+      </section>
+    </div>
+    <footer>
+      <div class="scontainer">
+        <div class="line">
+          <div class="x:scol-12 x:center x:fs-14 c-grey-700">
+            <p>Copyright © 2013-2020 Samuel Olvera </p>
+            <p>Released under the MIT License</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
+

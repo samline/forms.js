@@ -1,7 +1,8 @@
-# forms.js v1.1.0
-by  **Samuel Olvera (samline)**
+# s.forms
+
+Docs coming soon.
 
 ## License
-The MIT License (MIT)
+MIT License
 
-Copyright (c) 2019 Samuel Olvera (samline)
+Copyright © 2013-2020 Samuel Olvera

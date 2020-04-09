@@ -12,12 +12,17 @@ trim_trailing_whitespace = true
 trim_trailing_whitespace = false
 
 # Spaces in js
-[{*.js,*.vue,*.json}]
+[{*.js, *.vue, *.json}]
 indent_style = space
 indent_size = 2
 
 # Spaces in less
 [*.less]
+indent_style = space
+indent_size = 2
+
+# Spaces in sass
+[*.scss]
 indent_style = space
 indent_size = 2
 
